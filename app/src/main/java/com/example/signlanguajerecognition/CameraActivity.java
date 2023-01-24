@@ -60,7 +60,7 @@ public class CameraActivity extends AppCompatActivity implements CameraBridgeVie
 
         setContentView(R.layout.activity_camera);
 
-        cameraBridgeViewBase = (CameraBridgeViewBase) findViewById(R.id.frame_surface);
+        cameraBridgeViewBase = (CameraBridgeViewBase) findViewById(R.id.frameSurface);
         cameraBridgeViewBase.setVisibility(SurfaceView.VISIBLE);
         cameraBridgeViewBase.setCvCameraViewListener(this);
         try {
