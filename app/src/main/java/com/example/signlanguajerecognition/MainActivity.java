@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (OpenCVLoader.initDebug()) Toast.makeText(this, "Success", Toast.LENGTH_SHORT).show();
+        if (OpenCVLoader.initDebug()) Toast.makeText(this, "Successfully", Toast.LENGTH_SHORT).show();
         else Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
 
         Button cameraButton = findViewById(R.id.cameraButton);
